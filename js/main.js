@@ -243,7 +243,7 @@ jQuery(document).ready(function($) {
 	// navigation
   var OnePageNavigation = function() {
     var navToggler = $('.site-menu-toggle');
-   	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
+   	/*$("body").on("click", ".main-menu li a[href^='lol'], .smoothscroll[href^='lol'], .site-mobile-menu .site-nav-wrap li a", function(e) {
       e.preventDefault();
       var hash = this.hash;
         $('html, body').animate({
@@ -252,7 +252,7 @@ jQuery(document).ready(function($) {
           window.location.hash = hash;
         });
 
-    });
+    });*/
 
     // $("#menu li a[href^='#']").on('click', function(e){
     //   e.preventDefault();
